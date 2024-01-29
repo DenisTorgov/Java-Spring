@@ -1,10 +1,13 @@
 package com.example.demo.repositories;
 
 import com.example.demo.model.User;
+import com.example.demo.utils.UserMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 @Repository
@@ -48,6 +51,14 @@ public class UserRepository {
 
     public User getOne(int id) {
         String sql = "SELECT * FROM userTable WHERE id = ?";
-        return jdbc.queryForObject(sql, User.class, id);
+        RowMapper<User> userRowMapper = (r, i) -> {
+            User rowObject = new User();
+            rowObject.setId(r.getInt("id"));
+            rowObject.setFirstName(r.getString("firstName"));
+            rowObject.setLastName(r.getString("lastName"));
+            return rowObject;
+        };
+        return jdbc.query(sql, new Object[]{id}, new UserMapper())
+                .stream().findFirst().orElse(null);
     }
 }
