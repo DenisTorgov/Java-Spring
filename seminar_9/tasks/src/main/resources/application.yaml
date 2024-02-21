@@ -3,8 +3,7 @@ server:
 
 spring:
   application:
-    name: TaskMicroservice
-
+    name: task-microservice
 
 eureka:
   client:

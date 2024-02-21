@@ -1,8 +1,8 @@
-package com.tasks.controller;
+package com.example.controller;
 
-import com.tasks.model.Task;
-import com.tasks.model.TaskStatus;
-import com.tasks.repository.TaskRepository;
+import com.example.model.Task;
+import com.example.model.TaskStatus;
+import com.example.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

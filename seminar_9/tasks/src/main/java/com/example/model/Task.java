@@ -1,4 +1,4 @@
-package com.tasks.model;
+package com.example.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

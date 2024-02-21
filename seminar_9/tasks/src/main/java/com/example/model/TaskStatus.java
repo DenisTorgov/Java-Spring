@@ -1,4 +1,4 @@
-package com.tasks.model;
+package com.example.model;
 
 public enum TaskStatus {
     NOT_STARTED,
