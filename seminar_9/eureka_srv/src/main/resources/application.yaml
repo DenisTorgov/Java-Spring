@@ -1,0 +1,22 @@
+server:
+  port: 8761
+spring:
+#  main:
+#    web-application-type: reactive
+  application:
+    name: eserver
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: TaskMicroservice
+#          uri: http://localhost:8081/
+#          predicates:
+#            - Path=/serviceTasks/**
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-uri:
+      defaultZone: http://localhost:8761/eureka
+
