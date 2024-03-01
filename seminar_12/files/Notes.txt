@@ -1,0 +1,45 @@
+Note(id=null, title=title3, body=content3, creation=2024-03-01T01:10:21.469397)
+Note(id=null, title=title1, body=content1, creation=2024-03-01T01:10:26.651864200)
+Note(id=null, title=title2, body=content2, creation=2024-03-01T01:10:36.141355100)
+Note(id=null, title=title3, body=content3, creation=2024-03-01T01:10:21.469397)
+Note(id=null, title=title1, body=content1, creation=2024-03-01T01:10:26.651864200)
+Note(id=null, title=title2, body=content2, creation=2024-03-01T01:10:36.141355100)
+
+Note(id=null, title=title2, body=content2, creation=2024-03-01T02:29:19.826563600)
+Note(id=null, title=title2, body=content2, creation=2024-03-01T02:44:12.215745900)
+Note(id=null, title=title2, body=content2, dateTime=null)
+Note(id=null, title=title1, body=content1, dateTime=null)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:10:56.839515200)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:14:47.840311900)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:16:48.752255200)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:18:08.802289700)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:18:58.163999300)
+Note(id=null, title=title4, body=content4, dateTime=2024-03-01T03:23:37.699708300)
+All notes showed
+Note 1 updated
+Note 3 deleted
+All notes showed
+Note(id=null, title=title1, body=content1, dateTime=2024-03-01T03:26:27.598786400)
+All notes showed
+Note(id=null, title=title1, body=content1, dateTime=2024-03-01T03:37:58.601179300)
+All notes showed
+All notes showed
+All notes showed
+New note generateded
+New note generateded
+New note generateded
+All notes showed
+Note(id=null, title=title1, body=content1, dateTime=2024-03-01T03:42:49.446600600)
+New note generateded
+New note generateded
+All notes showed
+Note 2 showed
+Note 1 updated
+Note 1 updated
+Note 3 deleted
+New note generateded
+New note generateded
+New note generateded
+New note generateded
+Note 2 deleted
+Note(id=null, title=title1, body=content1, dateTime=2024-03-01T03:46:12.421818700)
